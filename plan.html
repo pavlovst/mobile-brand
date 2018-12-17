@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>Plan and Add-Ons</title>
+            
+<!-- ***************** HTMLHEAD ***************** -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+    <!-- Material UI Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/assets/css/PublicMobile.css">
+        
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+          var mybodyid = $('body').attr('id');
+          var mynavid = '#nav' + mybodyid;
+          /* e.g. for 3.shtml:
+              mybodyid is 'part3'
+              mynavid  is '#navpart3'
+           */
+          $(mynavid).attr('id','iamhere');
+        });
+    </script>
+    
+<!-- ******************************************** -->
+    
+</head>
+
+<body id="part4">
+                
+
+    <!-- Top Nav Bar with Logo --> 
+    <div class="navbar-wrapper">
+      <div class="container">
+
+              
+<!-- ***************** HEADER ***************** -->
+
+<!-- Top Nav Bar with Logo --> 
+<div class="navbar navbar-static-top nav-wrapper" style="margin-top: 14px;">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="overview.html">
+            <img alt="Brand" src="src/assets/images/Logo.jpg" width="160px"></a> 
+        </div>
+        
+        <div style="float: right; margin-top: -40px;"> 
+            <p>Logged in as Ali | Balance: $36.00 | <a href="/Login">Logout</a></p>
+        </div>
+       
+        <div id="navbar" class="navbar-collapse">
+                <!-- ***************** NAV ***************** -->
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li id="navpart1">
+                            <a href="/Overview">Overview</a>
+                        </li>
+                        <li id="navpart2">
+                            <a href="profile.html">My Profile</a>
+                        </li>
+                        <li id="navpart3">
+                            <a href="payment.html">Payment</a>
+                        </li>
+                        <li id="navpart4">
+                            <a href="plan.html">Plan and Add-Ons</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- *************************************** -->
+        </div>
+      </div>
+</div>
+<!-- ****************************************** -->
+            <div class="row">
+                <br>
+                <h5>My Plan and Add-ons</h5>
+                <hr class="featurette-x-divider">
+
+                <div style="font-size: 12px; margin-top: -25px;">
+                    <br>
+                    <p style="font-weight: bold;">Phone Number: (416)-999-9999</p>
+                </div>
+                <br>   
+                <hr class="featurette-x-divider">
+
+                    
+               <div class="row col s12" style="width= 80%;">
+                    
+                    <div class="col s1" style="padding-left: 0;">
+                      <h6 style="text-align: left; font-weight: bold; margin-left: -12px;">My Plan</h6>
+                    </div>
+
+                    <div class="col s5">
+                        <div style="font-size: 12px;">
+                            <p>This plan includes:</p>
+                            <p>- 4.5 GB at 3G Speed</p>
+                            <p>- Unlimited Canada-wide Talk</p>
+                            <p>- Unlimited International Text</p>
+                        </div>
+                    </div>
+
+                    <div class="col s2">
+                        <p style="font-size: 14px; text-align: left; font-weight: bold;">$40 per 30 Days</p>
+                        
+
+                        <!-- Change Plan Button  -->
+                        <div class="actions">
+                            <a class="waves-effect waves-light btn-small blue white-text" style="margin-top: 6px; margin-left: -20px; margin-top: 138px; font-size: 12px;">Change Plan 
+                              <i class="material-icons left">edit</i>
+                            </a>
+                        </div>
+                   </div>
+
+                    <!-- Available Funds -->
+                    <div class="col s4">
+                       <div class="row">
+                            <div class="card container" style="width: 100%; background-color: #fafafa;">
+                                <div class="card-content">
+                                    <h6 style="text-align: left; font-weight: bold;">Available Funds: $36.00</h6>
+                                    <div style="font-size: 12px;">
+                                        <br>
+                                        <p>Next plan renewable date: Sep 28, 2018</p>
+                                        <p>Estimated Amount due: $4.00</p>
+                                        <br>
+                                        <p>The amount due is based on your current Rate Plan</p>
+                                        <br>
+                                        <a>View Payment History</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>   
+            </div>  
+  
+            <div class="row">
+                <hr class="featurette-x-divider">
+                
+                <div class="col s12" style="width= 80%;">
+                    
+                    <div class="col s6" style="padding-left: 0;">
+                      <h6 style="text-align: left; font-weight: bold; margin-left: -12px;">My Add-ons</h6>
+                    </div>
+                    
+                    <div class="col s2" style="padding-left: 0;">
+                      <!-- My Add-ons Button  -->
+                        <div class="actions">
+                            <a class="waves-effect waves-light btn-small blue white-text" style="margin-top: 138px; font-size: 12px; margin-left: -10px; width: 90%;">My Add-ons 
+                              <i class="material-icons left">add_circle</i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col s4" style="float: right;">
+                        <div class="card container" style="width: 100%; margin-top: 15px;">
+                            <div class="card-content" style="padding-right: 20px;">
+                                <h6 style="text-align: left; font-weight: bold;     margin-top: 0px;">Check Your Rewards</h6>
+                                <div style="font-size: 12px; font-weight: bold;">
+                                    <br>
+                                    <p>Loyalty Reward ($3)</p>
+                                    <br>
+                                    <p>AutoPay Reward $0</p>
+                                    <br>
+                                    <p>Community Reward $0</p>
+                                    <br>
+                                    <p>Refer-a-Friend Reward $0</p>
+                                    <br>
+                                    <p>To learn more about our Rewards, visit our <a style="color: orange;">Community</a></p>
+                                    <br>
+                                    <a style="font-size: 14px; color: orange;">View rewards earned to date</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>  
+            </div> 
+
+                <br><br><br>
+                <hr class="featurette-x-divider">
+
+                <footer>
+
+<!-- ***************** FOOTER ***************** -->
+    
+    <div class="footer" style="background-color: #fafafa;">
+           <div class="row footer"  style="font-size: 14px; margin-left: 12px;">
+                      <div class="col s12">
+
+                <!-- Get Started -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Get Started</p><br>
+                    <p>Check Your Phone</p><br>
+                    <p>Order a SIM Card</p><br>
+                    <p>Activate a SIM Card</p><br>
+                    <p>Set Up Account</p><br>
+                </div>
+                
+                <!-- Our Plans -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Our Plans</p><br>
+                    <p>Create your Own</p><br>
+                    <p>Coverage Maps</p><br>
+                </div>
+               
+                <!-- Rewards -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Rewards</p><br>
+                    <p>Loyalty</p><br>
+                    <p>AutoPay</p><br>
+                    <p>Refer a Friend</p><br>
+                    <p>Help the Community</p><br>
+                </div>
+                
+                <!-- Community -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Community</p><br>
+                    <p>Facebook</p><br>
+                    <p>Twitter</p><br>
+                    <p>Instagram</p><br>
+                    <p>YouTube</p><br>
+                </div>
+
+                <!-- Get Help -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Get Help</p><br>
+                    <p>Ask a Question</p><br>
+                </div>
+                
+                <!-- My Account -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">My Account</p><br>
+                    <p>Create Account</p><br>
+                    <p>Visit Account</p><br>
+                </div>
+                
+                <!-- Privacy & Legal -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Privacy and Legal</p><br>
+                    <p>Service Terms</p><br>
+                    <p>E911 Service</p><br>
+                    <p>CRTC Wireless</p><br>
+                </div>
+                
+           </div>
+        </div>
+    </div>
+<!-- ****************************************** -->
+                       </footer>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <title>My Profile</title>
+            
+<!-- ***************** HTMLHEAD ***************** -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
+    <!-- Material UI Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="src/assets/css/PublicMobile.css">
+        
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+          var mybodyid = $('body').attr('id');
+          var mynavid = '#nav' + mybodyid;
+          /* e.g. for 3.shtml:
+              mybodyid is 'part3'
+              mynavid  is '#navpart3'
+           */
+          $(mynavid).attr('id','iamhere');
+        });
+    </script>
+    
+<!-- ******************************************** -->
+    
+</head>
+
+<body id="part2">
+
+    <!-- Top Nav Bar with Logo --> 
+    <div class="navbar-wrapper">
+      <div class="container">
+
+              
+<!-- ***************** HEADER ***************** -->
+
+<!-- Top Nav Bar with Logo --> 
+<div class="navbar navbar-static-top nav-wrapper" style="margin-top: 14px;">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="overview.html">
+            <img alt="Brand" src="src/assets/images/Logo.jpg" width="160px"></a> 
+        </div>
+        
+        <div style="float: right; margin-top: -40px;"> 
+            <p>Logged in as Ali | Balance: $36.00 | <a href="/Login">Logout</a></p>
+        </div>
+       
+        <div id="navbar" class="navbar-collapse">
+                <!-- ***************** NAV ***************** -->
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li id="navpart1">
+                            <a href="/Overview">Overview</a>
+                        </li>
+                        <li id="navpart2">
+                            <a href="profile.html">My Profile</a>
+                        </li>
+                        <li id="navpart3">
+                            <a href="payment.html">Payment</a>
+                        </li>
+                        <li id="navpart4">
+                            <a href="plan.html">Plan and Add-Ons</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- *************************************** -->
+        </div>
+      </div>
+</div>
+<!-- ****************************************** -->
+            <div class="row">
+                <br>
+                <h5>Create your Profile</h5>
+                <hr class="featurette-x-divider">
+
+                <div style="font-size: 12px; margin-top: -25px;">
+                    <br>
+                    <p>Create your personal profile. Just a heads up that if you are updating your address and have a registered credit card to your account, be sure to update your credit card address as well.</p>
+                </div>
+                    
+               <div class="row col s12" style="width= 80%;">
+                    
+                    <div class="col s6">
+
+                        <!--First Name-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">person</i>
+                            <input type="text" name="firstname"><br>
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+
+                        <!--Address 1-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">looks_one</i>
+                            <input type="text" name="address1"><br>
+                            <label for="icon_prefix">Address 1</label>
+                        </div>
+
+                        <!--City-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">location_city</i>
+                            <input type="text" name="city"><br>
+                            <label for="icon_prefix">City</label>
+                        </div>
+
+                        <!-- Country -->
+                        <div class="input-field">
+                            <i class="material-icons prefix">public</i>
+                            <input type="text" name="country"><br>
+                            <label for="resume_country">Country</label>
+                        </div>
+
+                        <!--Phone Number-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">phone</i>
+                            <input type="text" name="phone"><br>
+                            <label for="icon_prefix">Phone Number</label>
+                        </div>
+
+                    </div>
+
+                    <div class="col s6">
+
+                        <!--Last Name-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">person</i>
+                            <input type="text" name="lastname"><br>
+                            <label for="icon_prefix">Last Name</label>
+                        </div>
+
+                        <!--Address 2-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">looks_two</i>
+                            <input type="text" name="address2"><br>
+                            <label for="icon_prefix">Address 2</label>
+                        </div>
+
+                        <!--Province-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">explore</i>
+                            <input type="text" name="province"><br>
+                            <label for="icon_prefix">Province</label>
+                        </div>
+
+                        <!--Postal Code-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">location_on</i>
+                            <input type="text" name="postal"><br>
+                            <label for="icon_prefix">Postal Code</label>
+                        </div>
+                        
+                        <!--Email-->
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                            <input type="text" name="email"><br>
+                            <label for="icon_prefix">Email</label>
+                        </div>
+
+                   </div>
+                </div>
+            </div>
+   
+            <div class="actions">
+
+                <!-- Back Button  -->
+                <a class="waves-effect waves-light btn white-text" href="overview.html">Back
+                <i class="material-icons left">keyboard_backspace</i> </a>
+
+                <!-- Save Button  -->
+                <a class="waves-effect waves-light btn white-text" href="overview.html">Save
+                <i class="material-icons right">send</i> </a>
+
+            </div>
+
+        </div> 
+
+            <br><br><br>
+            <hr class="featurette-x-divider">
+
+            <footer>
+
+<!-- ***************** FOOTER ***************** -->
+    
+    <div class="footer" style="background-color: #fafafa;">
+           <div class="row footer"  style="font-size: 14px; margin-left: 12px;">
+                      <div class="col s12">
+
+                <!-- Get Started -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Get Started</p><br>
+                    <p>Check Your Phone</p><br>
+                    <p>Order a SIM Card</p><br>
+                    <p>Activate a SIM Card</p><br>
+                    <p>Set Up Account</p><br>
+                </div>
+                
+                <!-- Our Plans -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Our Plans</p><br>
+                    <p>Create your Own</p><br>
+                    <p>Coverage Maps</p><br>
+                </div>
+               
+                <!-- Rewards -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Rewards</p><br>
+                    <p>Loyalty</p><br>
+                    <p>AutoPay</p><br>
+                    <p>Refer a Friend</p><br>
+                    <p>Help the Community</p><br>
+                </div>
+                
+                <!-- Community -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Community</p><br>
+                    <p>Facebook</p><br>
+                    <p>Twitter</p><br>
+                    <p>Instagram</p><br>
+                    <p>YouTube</p><br>
+                </div>
+
+                <!-- Get Help -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Get Help</p><br>
+                    <p>Ask a Question</p><br>
+                </div>
+                
+                <!-- My Account -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">My Account</p><br>
+                    <p>Create Account</p><br>
+                    <p>Visit Account</p><br>
+                </div>
+                
+                <!-- Privacy & Legal -->
+                <div class="col 1.5" style="width: 14%;">
+                    <p style="font-weight: bold;">Privacy and Legal</p><br>
+                    <p>Service Terms</p><br>
+                    <p>E911 Service</p><br>
+                    <p>CRTC Wireless</p><br>
+                </div>
+                
+           </div>
+        </div>
+    </div>
+<!-- ****************************************** -->            </footer>
+            
+    </div>
+    
+</body>
+</html>

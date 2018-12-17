@@ -1,0 +1,417 @@
+header {
+    margin-top: 1em;
+}
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+footer {
+    padding: 10px 10px 20px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fafafa;
+    line-height: 0;
+    margin-top: -14px;
+    margin-bottom: -14px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 1em;
+}
+
+div.login {
+    background: transparent;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -270.5px;
+    margin-left: -227.5px;
+    padding: 0;
+    width: 500px;
+}
+
+div.login h4 .login-span {
+    margin-top: -60px;
+    margin-left: 150px;
+    display: block;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+div.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+/* NAVIGATION RULES
+-------------------------------------------------- */
+nav ul {
+    list-style: none; padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none; 
+/*    padding: 0.5em 0 0.5em 1em; */
+    border: thin solid navy; 
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    display: block;
+}
+
+nav ul li a:visited {
+    display: block;
+}
+/*
+
+nav ul li a:hover {
+    display: block; 
+    border: thin solid white; 
+    background-color: navy; 
+    color: white;
+}
+*/
+
+nav ul li a:active {
+    display: block;
+}
+
+nav ul li#iamhere a,
+nav ul li#iamhere a:link,
+nav ul li#iamhere a:visited,
+nav ul li#iamhere a:hover { 
+    color: #792423; 
+    border: none;
+    text-decoration: underline;
+
+}
+
+nav ul li { 
+    margin-bottom: 0; 
+    margin-top: 0; 
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+/*
+
+.navbrand {
+    float: left;
+    color: royalblue;
+}
+*/
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.container{
+    width: 90%;
+}
+/*
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+*/
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-collapse ul {
+    margin-left: 1em;
+}
+
+.navbar-collapse ul li a {
+    display: none;
+    text-decoration: none; 
+/*    padding: 1.2em 1.5em 0.5em 1em; */
+    border: none; 
+}
+
+.checkbox{
+opacity: inherit !important;
+margin-top: 5px; 
+margin-left: 7px; 
+pointer-events: all;
+}
+
+.style1
+{
+	margin-top: 14px;	
+}
+
+.style2
+{
+	float: right; margin-top: -40px;
+}
+
+.style3
+{
+	width: 100%; background-color: white; text
+}
+
+.style4
+{
+	text-align: center;
+}
+
+.style5
+{
+	margin-right: 10px;
+}
+
+.style6
+{
+	text-align: center; font-weight: bold;
+}
+
+.style7
+{
+	font-size: 12px; height: 66px
+}
+
+.style8
+{
+	color: #5a5a5a;
+}
+
+.style9
+{
+	padding-left: 0px;
+}
+
+.style10
+{
+	color: #5a5a5a;
+}
+
+.style11
+{
+	width: 100%; background-color:white;
+}
+
+.style12
+{
+	text-align: center;
+}
+
+.style13
+{
+	text-align: center; font-weight: bold;
+}
+
+.style14
+{
+	font-size: 12px; height: 67px;	
+}
+
+.style15
+{
+	width: 100%; background-color: #fafafa;
+}
+
+.style16
+{
+	text-align: left; font-weight: bold;
+}
+
+.style17
+{
+	font-size: 12px; height: 128px;
+}
+
+.style18
+{
+	margin-right: 10px;
+}
+
+.style19
+{
+	width: 100%;
+}
+
+.style20
+{
+	padding-right: 20px;
+}
+
+
+
+.style22
+{
+	float: left; margin-right: 10px;
+}
+
+.style21
+{
+	background-color: #fafafa;
+}
+
+.style22
+{
+	font-size: 14px; margin-left: 12px;
+}
+
+.style23
+{
+	width: 14%;
+}
+
+.style24
+{
+	font-weight: bold;
+}
+
+.style25
+{
+	font-weight: bold; margin-bottom: 2px;
+}
+.style26
+{
+	width: 100%; background-color: white; height: 300px;
+}
+.style27
+{
+	text-align: left;
+}
+
+.style28
+{
+	margin-top: 20px;
+}
+.style29
+{
+	text-align: left; margin-top: 25px;
+}
+
+.style30
+{
+	height:40px; width:40px;float: left;margin-right: 10px;margin-top: 10px;
+}
+.style31
+{
+	font-size: 2rem; margin-top: 0px; text-align: center;
+}
+.style32
+{
+	margin-top: 20px; font-size: 30px;
+}
+.style33
+{
+	text-decoration: underline; margin-top: 19px; font-size: 12px;
+}
+.style34
+{
+	font-size: 12px;
+}
+.style35{
+	font-size: 12px; float: right; margin-top: 30px; color: #039be5;
+}
+.style36
+{
+	font-size: 12px; font-weight: bold;
+}
+.style37
+{
+	width: 100%; background-color: white; height: 400px;
+}
+.style38
+{
+	text-align: left; padding-left: 23px;
+}
+.style39
+{
+	text-decoration: underline; margin-top: 19px; font-size: 14px;
+}
+.style40
+{
+	width: 103%; font-size: 12px; float: left; margin-top: 17px; color: #039be5;
+}
+.style41
+{
+	width: 103%; font-size: 12px; float: left; margin-top: 0px; color: #039be5;
+}
+.style42
+{
+	margin-top: -17px;
+}
+.style43
+{
+	width: 100%; background-color: white; height: 200px;
+}
+.style44
+{
+	margin-top: 52px;
+}
+.style45
+{
+	width: 90%; background-color: #fafafa; float: right;
+}
+
+.style46
+{
+	width: 90%; float: right;
+}
+
+.style47
+{
+	font-size: 12px;
+}
+
+/
+*
+
+.navbar-collapse ul li a:hover {
+    background-color: navy; 
+    color: white;
+}
+*/
+
+
+
+/* Featurettes
+------------------------- */
+/*
+.featurette-x-divider {
+  margin: 40px 0; 
+}
+
+
+.featurette-y-divider {
+  margin: 0px 40px; 
+}
+
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+*/
+
+
+
+

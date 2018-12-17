@@ -1,0 +1,34 @@
+[
+	{
+	  "billingAccountNum": "10005171",
+	  "accountTypeCd": "C",
+	  "accountSubTypeCd": "X",
+	  "statusCd": "200.00",
+	  "statusDt": "2017-11-21T00:00:00-0500",
+	  "subscriberList": [
+		{
+		  "name": {
+			"firstName": "BETTIE",
+			"lastName": "NABORS-ZZ"
+		  },
+		  "subscriptionId": 3318469,
+		  "phoneNumberTxt": "6042202557",
+		  "planDescriptionTxt": "Blackberry - Internal",
+		  "serviceCd": "RIMUPINTW",
+		  "statusCd": "S",
+		  "equipmentSerialNumberTxt": "8912230000106616295",
+		  "provinceCd": "BC",
+		  "billingAccountNum": "10005171"
+		}
+	  ],
+	  "statusActivityReasonCd": "SES",
+	  "mikeInd": false,
+	  "prepaidInd": false,
+	  "jasperInd": false,
+	  "wccDomesticInd": false,
+	  "wccRoamingInd": false,
+	  "activeSubscriberCt": 0,
+	  "suspendedSubscriberCt": 1,
+	  "cancelledSubscriberCt": 0
+	}
+]
